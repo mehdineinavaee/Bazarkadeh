@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+.cart-drawer {
+  width: 30%;
+}
+
+@media only screen and (max-width: 700px) {
+  .cart-drawer {
+    width: 70%;
+  }
+}
+
+.search-drawer {
+  width: 100%;
+}
+.search-drawer-content {
+  padding: 4em;
+}
+
+@media only screen and (max-width: 700px) {
+  .search-drawer-content {
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .search-drawer-input-cont {
+    margin-top: 3em;
+  }
+}
+
+.search-drawer-input {
+  padding: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+  .search-drawer-input {
+    font-size: 13px;
+    padding: 0.5em;
+  }
+}
+
+.search-drawer-input-icon {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 700px) {
+  .search-drawer-input-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.input-font {
+  font-family: "IRANSansfanum";
+}
+
+.input-font::-webkit-outer-spin-button,
+.input-font::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.slider-banner {
+  height: 80vh;
+}
+@media only screen and (max-width: 700px) {
+  .slider-banner {
+    height: 300px;
+  }
+}
+
+.header-logo {
+  height: 70px;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-logo {
+    height: 50px;
+  }
+}
+
+.menu-item {
+  display: block;
+  padding: 35px 0 33px 0;
+  width: 100px;
+  color: #4d5b77;
+  font-weight: 500;
+  font-size: 14px;
+  position: relative;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.menu-item:hover {
+  color: var(--primary-color);
+}
+
+.topmenu-item {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.topmenu-item:hover {
+  color: var(--primary-color);
+}
+
+.drawer-link {
+  transition: all 0.3s;
+  color: #4d5b77;
+}
+
+.drawer-link:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 700px) {
+  .wel {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+.drop-menu {
+  max-width: 1400px !important;
+}
+.sub-menu {
+  padding: 2em 1em !important;
+}
+
+.sub-menu li {
+  margin-left: 1em !important;
+}
+
+#view .mapboxgl-map {
+  width: 400px !important;
+  height: 260px !important;
+}
+#add .mapboxgl-map {
+  width: 100% !important;
+  height: 200px !important;
+}
+
+.cartItemImage {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .cartItemImage {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}

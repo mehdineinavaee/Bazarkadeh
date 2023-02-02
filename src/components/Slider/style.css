@@ -1,0 +1,41 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5px 2px;
+}
+
+.slider-track-container {
+  display: flex;
+  width: 100%;
+}
+
+.slider-track {
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+  align-self: center;
+}
+
+.slider-thumb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #60babe;
+}
+
+.slider-thumb {
+  height: 16px;
+  width: 5px;
+  background: transparent;
+  outline: none !important;
+}
